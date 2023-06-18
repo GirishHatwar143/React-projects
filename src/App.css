@@ -1,0 +1,81 @@
+*{
+  
+  background-color:lightpink;
+}
+
+button{
+  background:lightcyan;
+  border-radius:5px;
+  padding: 5px;
+  margin:10px;
+  width:100px;
+  font-family:arial;
+  font-weight: bold;
+  color:darkgoldenrod
+  
+}
+button:hover{
+  background-color:#a0fa64;
+}
+input{
+  border-radius:5px;
+  text-align:center;
+  background-color:floralwhite
+}
+input:hover{
+  box-shadow: 5px 5px 5px purple;
+}
+.contactList{
+   font-family:algerian; 
+  font-weight:400px;
+   color: #CB4D33;
+   text-align:center;
+   justify-content:center;
+   margin:50px;
+  text-shadow: 2px 2px 5px  yellow;
+  text-decoration:underline;
+  
+  
+}
+.cardContainer{
+  width:300px;
+  border:2px solid #CB4D33;
+  border-radius:10px;
+  display:flex;
+  margin:10px;
+  flex-direction:column; 
+  align-items:center;
+  justify-content:center;
+  
+}
+.cardContainer:hover{
+  /* background-color:#a0fa64; */
+  box-shadow: 10px 10px 5px #c5c5c5;
+}
+/* h4:hover{
+   background-color:#a0fa64;
+} 
+ */
+.contactContainer{
+  width:350px;
+  border:2px solid blue;
+  border-radius:5px;
+  /* margin-left:auto;
+  margin-right:auto; */
+  margin-top:150px;
+  align-items:center;
+  justify-content:center;
+  
+}
+.contactContainer:hover{
+   box-shadow: 10px 10px 5px #c5c5c5;
+}
+.mainContainer{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  height:100%;
+  width:77%;
+  
+ }
